@@ -1,10 +1,15 @@
 import { defineConfig } from 'vite';
+import * as THREE from 'three';
 
 export default defineConfig({
-  base: '/Portfolio/', 
-
-  build: {
-    rollupOptions: {
+  resolve: {
+    alias: {
+      'three': THREE,
     }
   },
+
+  base: '/Portfolio/',
+  build: {
+    outDir: 'dist',
+  }
 });
