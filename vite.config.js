@@ -7,5 +7,4 @@ export default defineConfig({
     rollupOptions: {
     }
   },
-   plugins: [three()] 
 });
