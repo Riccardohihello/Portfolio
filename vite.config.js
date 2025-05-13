@@ -6,6 +6,7 @@ export default defineConfig({
       'three': 'three'
     }
   },
+  assetsInclude: ['**/*.pdf'],
   base: '/Portfolio/',
   build: {
     outDir: 'dist',
