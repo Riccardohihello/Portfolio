@@ -6,9 +6,17 @@ export default defineConfig({
       'three': 'three'
     }
   },
-
   base: '/Portfolio/',
   build: {
     outDir: 'dist',
+    commonjsOptions: {
+      strictRequires: true,
+      transformMixedEsModules: true
+    },
+    rollupOptions: {
+      output: {
+        manualChunks: undefined
+      }
+    }
   }
 });
