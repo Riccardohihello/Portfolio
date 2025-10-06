@@ -9,21 +9,22 @@
 </head>
 <body>
     <canvas id="bg"></canvas>
-
     <div class="container">
         <header>
             <div class="intro">
                 <h1>Riccardo Aiello</h1>
-                <p>Sono un studente di informatica appasionato di web development e tecnologie cloud. Mi piace creare esperienze utili per le persone.</p>
-                <p>Durante il mio percorso ho avuto modo di conoscere e usare i principali linguaggi di programmazione (C/C++, Java, Python, SQL), di imparare i principi
-                    di networking e tecniche di programmazione come l'uso dei design patterns.
-                </p>
+                <p>Sono uno studente di Informatica con una forte passione per il web development
+                    e le tecnologie cloud. Durante il mio percorso universitario ho acquisito solide basi
+                    nella corretta progettazione e sviluppo software, apprendendo concetti fondamentali
+                    come i principi di networking, l'uso dei design patterns e tecniche di programmazione avanzate.
+                    Ho inoltre maturato esperienza nell'utilizzo dei principali linguaggi, tra cui C/C++,
+                    Java, Python e SQL.
+                </p>. 
             </div>
         </header>
 
         <section class="interests">
             <h2>I Miei Interessi</h2>
-
             <div class="cards-container">
                 <div class="card">
                     <div class="card_text">
@@ -36,31 +37,64 @@
                     </div>
                     <div class="card-title">Web Development</div>
                 </div>
-
                 <div class="card">
                     <div class="card_text">
                         <p>
-                            L'interesse è nato dopo aver seguito questo corso
-                            sponzorizzato dall'AWS. Durante il corso abbiamo visto le 
-                            principali tecnologie impiegate dall'azienda e la differenza
-                            tra i servizi serverless e non.
+                            L'interesse è nato dopo aver seguito un corso, in collaborazione tra la mia università e AWS, 
+                            che mi ha dato un'introduzione al settore e alle tecnologie principali utilizzate.
                         </p>
                     </div>
                     <div class="card-title">Cloud Computing</div>
                 </div>
+            </div>
+        </section>
 
+        <section class="projects">
+            <h2>I Miei Progetti</h2>
+            
+            <div class="project">
+                <h3>7 e mezzo</h3>
+                <p>
+                    Sviluppo di una versione del classico gioco di carte "7 e mezzo",
+                    realizzata interamente in Java con un'interfaccia grafica creata tramite JavaFX.
+                    Il progetto si focalizza sull'applicazione di design pattern comportamentali 
+                    (Strategy, Observer, State, Memento) per gestire con efficienza la logica di gioco,
+                    i ruoli dei giocatori e il salvataggio dello stato della partita.
+                    L'applicazione simula fedelmente le regole tradizionali e include un giocatore gestito dal computer.
+                </p>
+                <img src="img1.png" alt="Screenshot 7 e mezzo" class="project-img">
+            </div>
+
+            <div class="project">
+                <h3>GameGuessr</h3>
+                <p>
+                    Un gioco a quiz multiplayer basato su un'architettura di rete P2P
+                    ibrida e decentralizzata. Sviluppato in Python con interfaccia grafica in Pygame,
+                    il progetto utilizza un server centrale per coordinare la connessione iniziale dei peer.
+                    Successivamente, un peer viene eletto "presentatore" e gestisce la partita comunicando
+                    direttamente con gli altri giocatori, inviando domande e validando le risposte in tempo reale.
+                </p>
+                <img src="img2.png" alt="Screenshot GameGuessr" class="project-img">
+            </div>
+
+            <div class="project">
+                <h3>ParthenoAnswer</h3>
+                <p>
+                    Progettazione e sviluppo di "ParthenoAnswer", una web app stile forum universitario
+                    creata per gli studenti dell'Università Parthenope. L'applicazione è stata realizzata con Flask (Python),
+                    JavaScript e MongoDB come database NoSQL per il backend e html, css e bootstrap per il front end, la sua particolarità è l'integrazione con le API ufficiali dell'ateneo
+                    per automatizzare il login e recuperare dati sulla carriera.
+                </p>
+                <img src="img3.png" alt="Screenshot ParthenoAnswer" class="project-img">
             </div>
         </section>
 
         <section class="contacts">
             <h2>Contatti</h2>
-
             <div class="contact-links">
                 <a href="CV_Riccardo_Aiello_firmato.pdf" class="btn" download="CV_Riccardo_Aiello_firmato.pdf">Scarica CV</a>
-                <p style=" padding: 0.8rem 1.5rem;">Email: riccardoaiello73@gmail.com</p>
+                <p style="padding: 0.8rem 1.5rem;">Email: riccardoaiello73@gmail.com</p>
             </div>
         </section>
     </div>
 </body>
-</html>
-```
